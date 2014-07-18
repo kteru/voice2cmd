@@ -1,0 +1,10 @@
+{
+  "name": "voice2cmd",
+  "description": "Recognizing the voice, and running the command.",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "async": ">=0.9.0",
+    "xml2js": ">=0.4.4"
+  }
+}

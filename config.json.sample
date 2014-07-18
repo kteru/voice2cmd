@@ -1,0 +1,22 @@
+{
+  "julius": {
+    "port"     : 10500,
+    "binPath"  : "/usr/local/julius/current/bin/julius",
+    "jconfPath": "/home/teru/work/julius-misc/julius.jconf",
+    "dictPath" : "/tmp/dictionary.dict"
+  },
+
+  "voiceToCmds": [
+    {
+      "name" : "light_power_on",
+      "voice": "でんきつけて",
+      "cmd"  : "/home/teru/work/irkit/send.sh /home/teru/work/irkit/json/light_power_toggle.json"
+    },
+    {
+      "name" : "light_power_off",
+      "voice": "でんきけして",
+      "cmd"  : "/home/teru/work/irkit/send.sh /home/teru/work/irkit/json/light_power_toggle.json"
+    }
+  ]
+}
+
